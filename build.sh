@@ -4,7 +4,7 @@
 # export ANDROID_BUILD_TOOLS_VERSION=31.0.0
 # export ANDROID_SDK_API_LEVEL=30
 # export ANDROID_NDK_HOME=$HOME/Library/Android/sdk/ndk/25.1.8937393
-# export ANDROID_NDK_API_LEVEL=30
+# export ANDROID_NDK_API_LEVEL=21
 export TF_PYTHON_VERSION=3.11
 
 bazel build -c opt --cxxopt=--std=c++17 --config=android_arm \
